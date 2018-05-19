@@ -1,0 +1,211 @@
+@font-face {src: url(../fonts/DroidSans-Bold.ttf);
+font-family: dorid-bold;}
+@font-face {src: url(../fonts/Quicksand-Bold.ttf);font-family: quick-bold;}
+@font-face {src: url(../fonts/Quicksand-Light.ttf);font-family: quick-light;}
+@font-face {src: url(../fonts/Quicksand-Regular.ttf);font-family: quick-regular;}
+@font-face {src: url(../fonts/ARDECODE.ttf);font-family:ardecode;}
+
+body {font-family: quick-regular;}
+/*header*/
+* {margin: 0;
+padding: 0;}
+
+
+.header {background-color: #2A2D32;}
+.headerwrapper {width: 85%;
+ min-height: 100px;color: white;
+margin: 0 auto;
+overflow: hidden;}
+.headerlogo {width: 36%;
+float: left;
+overflow: hidden;
+margin-top: 25px;}
+.headerlogo h1 {float: left;font-family: dorid-bold;}
+.headerlogo h1 p {font-size: 15px;
+float: right;
+margin: 10px 12px;
+font-family: quick-light;
+font-weight: initial;
+color: #B3B7BB;}
+.deluxe{color: #FCD600;}
+
+/*logo end*/
+.nav {
+    float: right;
+    width: 55%;
+    min-height: inherit;overflow: hidden;}
+.nav ul {float:right;}
+.nav ul li{
+    list-style: none;
+    float:left;
+   margin: 35px 0px;
+}
+.nav ul li a{text-decoration: none;
+color: white;
+padding: 50px 14px;
+font-size: 14px;
+font-family: dorid-bold;}
+
+.nav ul li a:hover {background-color: #1E2329;color: white;}
+/*nav end*/
+.banner { position: relative;}
+
+.bannerwrapper {
+    background-color: #00CCFF;color: white;
+text-align: center;
+padding-top: 80px;
+padding-bottom: 120px;
+}
+
+.bannertext {width: 40%;
+    margin: 0 auto;}
+
+.bannertext h3 {font-size: 30px;}
+
+.reached {font-family: quick-light;font-weight: 300;}
+
+.bannertext h1 {font-family: dorid-bold;font-size: 60px;padding: 30px 0px;border-bottom: 1px dashed white;border-top: 1px dashed white;margin: 30px 0px; }
+
+.bannertext h2 {font-size: 30px;font-family: quick-light;}
+/*banner end*/
+
+
+.slider {background-image: url(../img/slider-background.jpg);width: 100%; overflow: hidden;}
+
+.sliderwrapper { }
+
+.slidercontent {
+width: 87%;
+margin: 0 auto;
+padding-top: 100px;}
+
+.slidertext {text-align: center;}
+
+.slidertext h1 {font-family: ardecode; font-size: 60px; font-weight: inherit; color: #2B2C31;}
+
+.slidertext p{color: #6C6D6F;font-size: 14px;}
+
+/*slider text end*/
+.circles {width: 90%;
+margin: 0 auto;
+padding: 30px 0px;
+height: 230px;}
+.arrowleft {
+    float: left;
+}
+.arrowleft img {padding: 70px 0px;}
+.circle_image {float: left;
+padding: 0px 100px;}
+.circle_image img {height: 220px;width: 220px;padding: 0px 10px;}
+.arrowright {float:right;}
+.arrowright img {padding: 70px 0px;padding: 70px 0px;}
+/* slider end*/
+
+.table_form { background-color: #2A2D32;width: 80%;padding: 12px 0px;}
+.viewprice_form{}
+.viewprice_form label{color: #8F7A1B; margin: 0px 5px;}
+.viewprice_form input {padding: 10px 70px;
+border-radius: 10px;  border: none; margin: 0px 5px;
+font-family: quick-regular;
+color: #9A9A9A;}
+.select_options{padding: 10px 50px;
+border-radius: 10px; border: none; margin: 0px 5px;
+font-family: quick-regular;
+color: #9A9A9A;}
+.viewprice {padding: 10px 45px;
+border-radius: 10px;
+background-color: #FFD701;
+color: #37342D;
+border: none;
+margin: 0px 5px;
+font-family: quick-bold;
+font-size: 15px;}
+.table_margin {}
+.formposition{position: absolute;
+left: 0;
+right: 0;
+    bottom:-40px;
+margin: 0 auto;}
+/* form end*/
+
+
+.ourroom_types{}
+.ourroom_wrapper{background-image: url(../img/room-types-background.jpg);
+width: 100%; height: 850px;
+overflow: hidden;}
+.ourroom_textsingle {
+    margin: 0 auto;
+    width: 85%;}
+..ourroom_text{}
+.ourroom_text h1{font-family: ardecode;text-align: center;font-size: 60px; color: #2B2E32; font-weight: inherit;    padding: 15px 0px;}
+.ourroom_singlewrapper {}
+.single {width: 31%;text-align: center;float: left; padding: 20px 12px;}
+.single h1{font-weight: 400;    font-size: 25px;
+color: #7F7F82;}
+.single p{}
+.image_single {width: 100%; height: 150px;}
+.logoimgae_single {}
+/*end*/
+
+.city{background-color: #E7CB2C;position: relative}
+.citywrapper{width: 85%;margin: 0 auto;overflow: hidden;}
+.cityinfo {width: 75%;color: white;padding: 45px 0px;}
+.cityinfo h1{font-size: 53px;font-family: quick-light;
+font-weight: 300;}
+.cityinfo p{font-family: quick-regular;padding-top: 10px;
+font-size: 18px;}
+.yourpic{position: absolute;right: 100px; bottom: -4px;}
+.yourpic img{background: transparent;}
+
+/*end*/
+
+.footer {background-color: #333333;}
+.footerwrapper {overflow: hidden;}
+.footercontent{width: 85%;color: white;margin: 0 auto;min-height: 350px; }
+.footercontent h1{ 
+    font-size: 20px;
+    font-family: quick-regular;
+    font-weight: 300;
+    
+}
+.footercontent p{font-size: 11px;padding-top: 15px; color: #929292;}
+.about {width: 20%;float: left;}
+.about h1{}
+.about p{}
+.latest {width: 14%;float: left;}
+.latest h1{}
+.latest p{}
+.august {color: #8F7A1B;}
+.join {width: 40%;float: left;}
+.join h1{}
+.join p{}
+.readmore {background-color: #E7CB2C;
+
+padding: 5px 15px;
+
+border: none;
+
+border-radius: 8px;
+
+margin: 20px 0px;}
+.members {width: 15%;float: left}
+.members h1{padding-bottom: 10px;}
+.userpass {color:#929292;;}
+.members input {border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 35px;
+    background: transparent;
+
+}
+.login {background-color: #E7CB2C;
+
+padding: 5px 15px;
+
+border: none;
+
+border-radius: 8px;
+
+margin: 20px 0px;}
+.elementf {padding-right: 25px; padding-top: 25px;}
+
+/*end*/
